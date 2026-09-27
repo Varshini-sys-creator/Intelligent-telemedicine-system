@@ -1,0 +1,32 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+*.log
+
+# Java / Maven / Spring Boot
+backend/target/
+backend/.mvn/
+backend/*.log
+backend/h2data/
+*.class
+*.jar
+*.war
+
+# Environment & Secrets
+.env
+*.env
+.env.production
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.ds_store
+Thumbs.db
+
+# Tools directory (local tools)
+tools/
+setup_tools.ps1
